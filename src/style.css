@@ -18,8 +18,7 @@
 }
 
 body {
-    min-width: 320px;
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
     place-content: center;
     background: var(--Light-gray);
@@ -32,7 +31,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 1.65rem;
+    gap: 1.38rem;
     border-radius: 19px;
     box-shadow: 0 0 0 12px var (--Dark-blue);
     background: var(--White);
@@ -49,16 +48,18 @@ body {
     border-radius: 10px;
 }
 
-.app h2 {
+.app h1 {
     margin: 0 0.75rem;
     text-align: center;
     color: var(--Dark-blue);
     font-size: 22px;
+    font-weight: 700;
 }
 
 .app p {
-    margin: 0 0.75rem 1.25rem;
+    margin: 0 0.75rem 1.3rem;
     text-align: center;
     color: var(--Grayish-blue);
     font-size: 15px;
+    font-weight: 400;
 }
